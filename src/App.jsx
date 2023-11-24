@@ -7,7 +7,7 @@ import './assets/css/style.css'
 import Registro from './Registro';
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
