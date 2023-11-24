@@ -1,0 +1,43 @@
+body {
+    background: rgb(34,195,125);
+    background: linear-gradient(90deg, rgba(34,195,125,1) 50%, rgba(207,253,45,1) 100%);
+}
+
+.crea-cuenta {
+    background-color: white;
+    border: solid gray 1px;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.grupo-iconos{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+.borde-iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid gray 1px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.grupo-campos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15%;
+    list-style-type: none;
+}
